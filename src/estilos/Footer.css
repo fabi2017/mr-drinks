@@ -1,0 +1,26 @@
+.App-footer{
+    box-shadow: 3px 15px 19px -13px rgb(0 0 0 / 20%);
+    box-sizing: border-box;
+    padding: 5px 30px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f5f5f5;        
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    
+  }
+
+  .App-footer.dark-mode{
+    background-color: #1d1d1d;
+    color: whitesmoke;
+  }
+
+  .iconFooter{
+     
+    display: flex;
+    align-items: center;
+  }
+
+  
