@@ -1,7 +1,9 @@
+import "../estilos/CartWidget.css"
 import Offcanvas from "react-bootstrap/Offcanvas";
 import Button from "react-bootstrap/Button";
-import { useState, useContext } from "react";
+import { useState} from "react";
 import Carrito from "../secciones/Carrito"
+import CartWidget from "./CartWidget"
 
 
 
@@ -12,8 +14,8 @@ function OffCanvasExample({ name, ...props }) {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow} className="me-2">
-        Carrito
+      <Button id="btnCart" variant="link" onClick={handleShow} className="me-2">
+        <CartWidget/>
       </Button>
       <Offcanvas show={show} onHide={handleClose} {...props}>
         <Offcanvas.Header closeButton>

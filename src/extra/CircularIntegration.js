@@ -5,7 +5,8 @@ import { useContext } from "react";
 import Box from '@mui/material/Box';
 import CircularProgress from '@mui/material/CircularProgress';
 import { green, red  } from '@mui/material/colors';
-import Button from '@mui/material/Button';
+/* import Button from '@mui/material/Button'; */
+import Button from "react-bootstrap/Button";
 import Fab from '@mui/material/Fab';
 import CheckIcon from '@mui/icons-material/Check';
 import ShoppingCartCheckoutIcon from '@mui/icons-material/ShoppingCartCheckout';
@@ -58,11 +59,10 @@ export default function CircularIntegration() {
 
       <Box sx={{ m: 1, position: 'relative' }}>
         <Button
-          variant="outlined"
-          color="error"
+         
           disabled={loading}
           onClick={handleButtonClick}
-          size="medium"          
+                  
         >
          {success ? <p className="btnChange">Compra realizada</p> : <p className="btnChange">Finalizar compra</p>}
         </Button>

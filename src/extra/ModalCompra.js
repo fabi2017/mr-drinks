@@ -1,4 +1,4 @@
-import "../estilos/Carrito.css"
+import "../estilos/Carrito.css";
 import CartContext from "../context/CartContext";
 import { useContext, useState } from "react";
 /*------------------------------- */
@@ -6,10 +6,9 @@ import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import CircularIntegration from "./CircularIntegration";
-/*-----------------------------*/ 
+/*-----------------------------*/
 import { addDoc, collection } from "firebase/firestore";
 import db from "../firebase";
-
 
 function ModalCompra() {
   const [show, setShow] = useState(false);
@@ -62,8 +61,10 @@ function ModalCompra() {
 
   return (
     <>
+      <p>Total: ${precioTotal()} </p>
+      <Button onClick={limpiarCart}>Cancelar Compra</Button>
       <Button variant="primary" onClick={handleShow}>
-        Comprar
+        Comprar{" "}
       </Button>
 
       <Modal show={show} onHide={handleClose}>
@@ -78,9 +79,8 @@ function ModalCompra() {
         ) : (
           <>
             <Modal.Header closeButton>
-              <Modal.Title>Modal heading</Modal.Title>
+              <Modal.Title>Orden Compra</Modal.Title>
             </Modal.Header>
-
             <Modal.Body>
               <Form onSubmit={handleSubmit}>
                 <Form.Group

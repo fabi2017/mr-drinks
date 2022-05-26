@@ -2,20 +2,16 @@
   display: flex;
 }
 
-.icon-carrito > p {
-  font-weight: bold;
-}
 
-.svgShoop {  
-  /* color: rgb(245, 69, 69); */
+#btnCart{
+  text-decoration: none;
   color: rgb(255, 255, 255);
+  font-weight: bold;
+
 }
 
-.svgShoop:hover {  
-  /* color: rgb(245, 69, 69); */
-  color: rgb(35, 18, 218);
+#btnCart:hover {
+  color: rgb(176, 169, 255);
 }
 
-.svgShoop.dark-mode {
-  color: whitesmoke;
-}
+

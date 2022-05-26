@@ -8,7 +8,7 @@ function CartWidget (){
     const { cartProductos } = useContext(CartContext);
     return(
        <div className= "icon-carrito">
-       <ShoppingCartIcon fontSize="large" className="svgShoop" sx={{fontSize: 40}}/>
+       <ShoppingCartIcon sx={{fontSize: 40}}/>
        <p>{cartProductos.length}</p>
        </div>
     )    

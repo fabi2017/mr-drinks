@@ -5,8 +5,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
 import { useContext } from "react";
-import "../estilos/NavBar2.css";
-import CartWidget from "./CartWidget";
+import "../estilos/NavBar.css";
 import CartContext from "../context/CartContext";
 import ModalCart from "./ModalCart"
 
@@ -29,15 +28,8 @@ function NavBar() {
               <Link to={"/categoria/vinos"} className="category">Vinos</Link>
             </NavDropdown>
             <Link to="/nosotros">Nosotros</Link>
-            <Link to="/contacto">Contacto</Link>         
-        
-            {cartProductos.length >= 1 && (
-              <ModalCart/>
-             /*  <Link to="/cart">
-                <CartWidget />
-                <Example/>
-              </Link> */
-            )}
+            <Link to="/contacto">Contacto</Link>       
+            {cartProductos.length >= 1 && (<ModalCart/>)}
           </Nav>
         </Navbar.Collapse>
       </Container>

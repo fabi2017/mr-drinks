@@ -30,6 +30,11 @@ flex-direction: column;
   font-family: 'Heroes Assemble', sans-serif;
   letter-spacing: 2px;
   font-size: 1rem;
+  border: 1px solid black;
+  margin: 0 5px;
+  background-color: transparent;
+  color: black;
+  height: 60px;
 }
 
 .contCompra>p{
@@ -37,13 +42,10 @@ flex-direction: column;
   font-size: 1.3rem;
   letter-spacing: 4px;
   margin-top: 15px;
+  text-align: center;
+ 
 }
 
-
-
-.contCompra > p > span {
-  font-weight: bold;
-}
 
 .contVacio {
   display: flex;
@@ -54,6 +56,7 @@ flex-direction: column;
 .btnChange {
   margin: 0;
   padding: 0;
+  
 }
 
 .ordenCompra {
@@ -70,7 +73,7 @@ flex-direction: column;
 
 .ordenTitle {
   font-size: 1rem;
-  background-color: rgba(245, 175, 175, 0.208);
+  background-color: rgba(255, 95, 218, 0.304);
   text-align: center;
   border-radius: 20px;
   font-weight: bold;
