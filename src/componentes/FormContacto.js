@@ -16,7 +16,7 @@ function FormContacto() {
 
     return (
 
-        <div className="containerContacto">    
+        <div className="containerForm">    
          <form onSubmit={handleSubmit} >
                   <TextField autoFocus={true} margin="dense"
                     name="nombre" label="Nombre"type="nombre"
@@ -37,7 +37,8 @@ function FormContacto() {
                     name="consulta" label="Consulta" type="texto"
                     fullWidth multiline  rows={4} variant="outlined" color="success" required
                     sx={{ mt: 2 }}
-                    />                   
+                    />
+                                 
                   <DialogActions>                    
                         <Snackbars action={handleSubmit} />                    
                   </DialogActions>

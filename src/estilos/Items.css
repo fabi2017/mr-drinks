@@ -5,11 +5,9 @@
 .cardProd {
   border: black 3px solid;
   display: inline-block;
-  margin: 20px;
-  width: 450px;
+  margin: 10px;
   text-align: center;
   border-radius: 10px;
-  padding: 0px;
   background-color: #113cd214;
 }
 
@@ -69,3 +67,12 @@
   font-weight: 400;
 }
 
+@media screen and (max-width: 500px) {
+
+  .imagenProd {
+    height: 100px;
+  }
+
+ 
+
+}

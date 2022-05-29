@@ -1,6 +1,7 @@
 import "../estilos/ItemCount.css"
 import React, { useState } from "react";
-import Button from '@mui/material/Button';
+/* import Button from '@mui/material/Button'; */
+import Button from 'react-bootstrap/Button'
 import RemoveIcon from '@mui/icons-material/Remove';
 import AddIcon from '@mui/icons-material/Add';
 
@@ -30,7 +31,7 @@ function ItemCount({ stock, initial,action,btnAdd}) {
           </button>
       </div>  
       <div className="contAdd"> 
-       <Button  className="btnStyle2" sx={{ m: 2}} variant="outlined" size="small" color="primary" disabled={btnAdd} onClick={(e) => action(e, contador)}>Agregar al carrito</Button>     
+       <Button variant="outline-primary" disabled={btnAdd} onClick={(e) => action(e, contador)}>Agregar al carrito</Button>     
      </div>
     </>
   );

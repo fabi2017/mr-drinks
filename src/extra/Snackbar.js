@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Stack from '@mui/material/Stack';
-import Button from '@mui/material/Button';
+/* import Button from '@mui/material/Button'; */
+import Button from 'react-bootstrap/Button'
 import Snackbar from '@mui/material/Snackbar';
 import MuiAlert from '@mui/material/Alert';
 
@@ -24,7 +25,11 @@ export default function Snackbars() {
 
   return (
     <Stack spacing={2} sx={{ width: '100%' }}>
-      <Button sx={{ m: 1, p: 1, height: 37 }}variant="outlined"color="error" 
+     {/*  <Button sx={{ m: 1, p: 1, height: 37 }}variant="outlined"color="error" 
+      type="submit" onClick={handleClick}>
+        Enviar
+      </Button> */}
+      <Button variant="outline-primary"
       type="submit" onClick={handleClick}>
         Enviar
       </Button>

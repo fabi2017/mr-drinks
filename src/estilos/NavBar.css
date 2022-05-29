@@ -1,50 +1,44 @@
 
-
-#navbar-toggler{
-  background-color: rgb(233 219 255);
-  margin: 10px 0 ;
+.navBar {
+  background-color: black;
+  width: 100%;
 }
 
-h2{
-    color: whitesmoke;
-  }
-  
-  #basic-nav-dropdown{
-    color: white;
-    padding-top: 0;
-  }
+.contLogo {
+  margin-right: 100px;
+}
 
-  
-.navbar-nav{
-    color: blue;
-  }
-  
-  
-  .navbar-nav a {
-    margin: 20px 20px 0 20px;
-    font-size: 1.2rem;
-    text-decoration: none;
-    color: white;
-  } 
-  
-  .messi{
-    margin-right: 100px;
-  
-    
-    
-  }
-
-.sas{
+.logo {
   padding-bottom: 25px;
-  width: 360px;
+  width: 310px;
   height: 120px;
-
 }
-  .messi2{
-    background-color: black;
-    width: 100%;
-  }
 
-a.category{
+
+#navbar-toggler {
+  background-color: rgb(233 219 255);
+  margin: 10px 0;
+}
+
+h2 {
+  color: whitesmoke;
+}
+
+#basic-nav-dropdown {
+  color: white;
+  padding-top: 0;
+}
+
+
+
+.navbar-nav a {
+  margin: 20px 20px 0 20px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
+}
+
+
+a.category {
   color: black;
 }

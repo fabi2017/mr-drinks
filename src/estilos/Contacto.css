@@ -1,41 +1,47 @@
 
 .contContacto { 
-  margin: 70px 0 ;
+  margin: 30px 0 ;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+
+  justify-content: center;
+ /*  border: 1px solid yellow; */
 }
 
-
-
-.containerContacto{
+.containerForm{
     box-shadow: 0 0 10px 0 rgb(252 62 62 / 53%);    
     background-color:whitesmoke;  
     border-radius: 10px;   
-    margin-top: 10px;
-  }
-
-  .containerContacto.dark-mode{  
-    background-color: #1d1d1d;     
-  
-  }
-
-  .containerContacto.dark-mode * {  
-    color: whitesmoke;    
-  
+    margin: 10px ;
+    padding: 10px;
+    width: 600px;
   }
   
   .containerContacto>form{
 
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 800px;
-    padding: 10px;
+    align-items: center;   
+    padding: 10px; 
     
   
   }
   
   
   
+  .contUbicacion{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 15px; 
+    width: 600px;
+    background-color: whitesmoke;
+    margin: 10px;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .contUbicacion{
+      height: 70vh;
+    }
   
+  }

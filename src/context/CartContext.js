@@ -32,7 +32,8 @@ const CartProvider = ({ children }) => {
       localStorage.setItem("memoProductos", JSON.stringify([...cartProductos, producto])) 
     }
 
-  };
+  };  
+
 
 
   const eliminarProd = (id) => {

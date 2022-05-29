@@ -13,10 +13,10 @@ function NavBar() {
   const { cartProductos } = useContext(CartContext);
 
   return (
-    <Navbar className="messi2" expand="lg">
+    <Navbar className="navBar" expand="lg">
       <Container>
-        <Link to="/" className="messi">
-          <img alt=""src="/logo8.png" className="sas"/>
+        <Link to="/" className="contLogo">
+          <img alt=""src="/logo8.png" className="logo"/>
         </Link>
         <Navbar.Toggle id="navbar-toggler" aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -26,6 +26,10 @@ function NavBar() {
               <Link to={"/categoria/cervezas"} className="category">Cervezas</Link>
               <NavDropdown.Divider />
               <Link to={"/categoria/vinos"} className="category">Vinos</Link>
+              <NavDropdown.Divider />
+              <Link to={"/categoria/aperitivos"} className="category">Aperitivos</Link>
+              <NavDropdown.Divider />
+              <Link to={"/categoria/bebidasBlancas"} className="category">B. Blancas</Link>
             </NavDropdown>
             <Link to="/nosotros">Nosotros</Link>
             <Link to="/contacto">Contacto</Link>       

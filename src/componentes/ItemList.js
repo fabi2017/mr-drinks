@@ -47,9 +47,7 @@ function ItemList() {
   ) : (
     <>
       <CircularProgress color="secondary" />
-   
-    
-    </>
+   </>
   
   );
 }
