@@ -1,6 +1,3 @@
-@import url('http://fonts.cdnfonts.com/css/heroes-assemble');
-
-@import url('http://fonts.cdnfonts.com/css/phoenix-gaming');
 
 
 .containCart {
@@ -10,8 +7,6 @@
   border-radius: 10px;
 display: flex;
 flex-direction: column;
-
-
 }
 
 
@@ -27,8 +22,8 @@ flex-direction: column;
 }
 
 .contCompra>Button{
-  font-family: 'Heroes Assemble', sans-serif;
-  letter-spacing: 2px;
+  font-weight: bold;
+  letter-spacing: 1px;
   font-size: 1rem;
   border: 1px solid black;
   margin: 0 5px;
@@ -38,12 +33,11 @@ flex-direction: column;
 }
 
 .contCompra>p{
-  font-family: 'Phoenix Gaming', sans-serif;
+  font-weight: 600;
   font-size: 1.3rem;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
   margin-top: 15px;
-  text-align: center;
- 
+  text-align: center; 
 }
 
 
@@ -85,4 +79,13 @@ flex-direction: column;
 
 h4{
   color:black;
+}
+
+@media screen and (max-width: 500px) {
+  .contCompra>p{
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+  
+
 }

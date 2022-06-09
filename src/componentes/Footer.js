@@ -3,14 +3,16 @@ import React from "react";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import Link from "@mui/material/Link";
+import AudioPlayer from 'react-h5-audio-player';
+import 'react-h5-audio-player/lib/styles.css';
 
 
 function Footer() {
 
 
   return (
-    <footer className="App-footer">
-      <p>Copyright Tienda-VK - 2022. Todos los derechos reservados.</p>
+    <footer className="App-footer">   
+      <p>Copyright Mr. Drinks. Todos los derechos reservados.</p>
       <div className="iconFooter">
         <span>Siguenos</span>
         <Link color="inherit" href="https://www.instagram.com/" underline="none">

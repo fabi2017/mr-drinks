@@ -7,7 +7,6 @@ const CartContext = createContext();
 const CartProvider = ({ children }) => {
   //se crea estados para el tema
   const [cartProductos, setCartProductos] = useState(JSON.parse(localStorage.getItem("memoProductos")) || [] );
-  //const [cartProductos, setCartProductos] = useState([]);
   const [totalPrice, setTotalPrice] = useState(0)
 
   const addProductos = (productos, contador) => {  

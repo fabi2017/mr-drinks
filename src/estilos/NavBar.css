@@ -1,4 +1,7 @@
 
+@import url('http://fonts.cdnfonts.com/css/e-engal');
+
+
 .navBar {
   background-color: black;
   width: 100%;
@@ -20,25 +23,34 @@
   margin: 10px 0;
 }
 
-h2 {
-  color: whitesmoke;
-}
-
 #basic-nav-dropdown {
   color: white;
   padding-top: 0;
 }
 
+#basic-nav-dropdown:hover{
+  color: rgb(24, 24, 194);
+}
 
 
 .navbar-nav a {
   margin: 20px 20px 0 20px;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   text-decoration: none;
   color: white;
+  font-family: 'e Engal', sans-serif;
+  letter-spacing: 3px;
+
 }
 
+.navbar-nav a:hover{
+  color: rgb(24, 24, 194);
+}
 
 a.category {
   color: black;
+}
+
+a.category:hover {
+  color: blue;
 }

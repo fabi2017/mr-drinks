@@ -3,9 +3,7 @@
   margin: 30px 0 ;
   display: flex;
   flex-wrap: wrap;
-
   justify-content: center;
- /*  border: 1px solid yellow; */
 }
 
 .containerForm{
@@ -25,9 +23,7 @@
     padding: 10px; 
     
   
-  }
-  
-  
+  }  
   
   .contUbicacion{
     display: flex;
@@ -42,6 +38,10 @@
   @media screen and (max-width: 1024px) {
     .contUbicacion{
       height: 70vh;
+    }
+
+    .contContacto {
+      margin: 20px 5px 60px 5px ;
     }
   
   }

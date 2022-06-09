@@ -10,6 +10,7 @@ import Page404 from "./extra/Page404"
 import ItemListContainer from "./componentes/ItemListContainer";
 import NavBar from "./componentes/NavBar";
 import Footer from "./componentes/Footer";
+
 //
 import { CartProvider } from "./context/CartContext"
 
@@ -28,7 +29,7 @@ function App() {
               <Route path="/cart" element={<Carrito/>} />
               <Route path="*"element={<Page404/>} />
             </Routes>   
-           {/*   <Footer/>     */}     
+            <Footer/>          
           </BrowserRouter>        
       </CartProvider>      
     </div>

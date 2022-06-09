@@ -1,19 +1,34 @@
 .contSlider {
-  margin: 0px 50px;
-  background-color: white;
+  margin: 0px 60px;
+  background-color: black;
   border-radius: 10px;
   margin-bottom: 80px;
 }
 
 .slider {
-  height: 30vh;
+  height: 25vh;
 }
 
 .imgSlide {
-  margin: 0 40px;
+  
   width: 100%;
   height: 100%;
   object-fit: contain;
   padding: 10px;
   border-radius: 20px;
+}
+
+@media screen and (max-width: 500px){
+
+ .contSlider {
+  margin: 0px 30px;
+  margin-bottom: 80px;
+}
+
+
+.imgSlide {
+  margin: 0 10px;
+  width: 90%;
+  height: 90%;
+}
 }

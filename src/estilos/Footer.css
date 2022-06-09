@@ -5,22 +5,26 @@
     margin-top: 10px;
     display: flex;
     justify-content: space-evenly;
-    background-color: #f5f5f5;        
+    background-color: #1d1d1d;
+    color: whitesmoke;      
     width: 100%;
     position: fixed;
     bottom: 0;
     
   }
 
-  .App-footer.dark-mode{
-    background-color: #1d1d1d;
-    color: whitesmoke;
-  }
 
-  .iconFooter{
-     
+  .iconFooter{     
     display: flex;
     align-items: center;
   }
 
   
+  @media screen and (max-width: 500px)
+{
+  .App-footer{
+   height: 10vh;
+   font-size: 10px;
+  }
+
+}
