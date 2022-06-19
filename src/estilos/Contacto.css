@@ -36,8 +36,13 @@
   }
 
   @media screen and (max-width: 1024px) {
+
+    .containerForm{
+      margin: 10px 20px 30px 20px;
+    }
     .contUbicacion{
       height: 70vh;
+      margin: 10px 20px 30px 20px;
     }
 
     .contContacto {

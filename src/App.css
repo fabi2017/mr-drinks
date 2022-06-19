@@ -72,11 +72,11 @@ body{
 @media screen and (max-width: 500px)
 {
   .contAccordion {    
-    margin: 20px 30px ;  
+    margin: 20px 30px 40px 30px;  
   }
 
   .containerProd {    
-    margin: 30px; 
+    margin: 30px 30px 90px 30px; 
     
   }
 
